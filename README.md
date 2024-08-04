@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Inventory-Manager
+Inventory Manager is a web application designed to help users manage their inventory efficiently. Built with Next.js, Material UI, and Firebase Firestore, the application allows users to add, update, and remove items from their inventory, ensuring they always have an up-to-date view of their stock.
 
-## Getting Started
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Add Items**: Users can add new items to their pantry with a specified quantity.
+- **Update Items**: Modify the quantity of existing items.
+- **Remove Items**: Delete items that are no longer in stock.
+- **Search Functionality**: Quickly find items using the search bar.
+- **Responsive Design**: The application is designed to work on both desktop and mobile devices.
+- **User Authentication**: Sign up and sign in using Firebase Authentication.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Next.js**: A React framework for building modern web applications.
+- **Material UI**: A popular React UI framework for designing beautiful user interfaces.
+- **Firebase Firestore**: A flexible, scalable database for real-time storage and syncing.
+- **Firebase Authentication**: Secure user authentication and authorization.
